@@ -1196,3 +1196,31 @@ body {
     margin-top: 14px;
   }
 }
+
+@media (max-width: 600px) {
+  .countdown {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2px;
+    padding: 0 5px;
+  }
+
+  .countdown div {
+    width: 100%;
+    min-width: 0;
+    text-align: center;
+  }
+
+  .countdown strong {
+    font-size: clamp(34px, 11vw, 46px);
+    line-height: 1;
+    white-space: nowrap;
+  }
+
+  .countdown span {
+    margin-top: 10px;
+    font-size: 12px;
+    white-space: nowrap;
+  }
+}
