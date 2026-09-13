@@ -1301,3 +1301,408 @@ body {
   text-shadow:
     0 1px 0 rgba(255,255,255,0.5);
 }
+
+/* =================================
+   FIX GIAO DIỆN ĐIỆN THOẠI
+================================= */
+
+@media (max-width: 600px) {
+
+  /* Không cho nội dung tràn ngang */
+  html,
+  body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .app,
+  .invitation {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+
+  /* =========================
+     TRANG MỞ THIỆP
+  ========================= */
+
+  .welcome {
+    width: 100%;
+    min-height: 100vh;
+    padding: 25px 18px;
+    overflow: hidden;
+  }
+
+  .welcome h1 {
+    font-size: 65px;
+    line-height: 0.95;
+  }
+
+  .welcome h2 {
+    font-size: 45px;
+    line-height: 1.1;
+  }
+
+  .welcome .name {
+    font-size: 20px;
+  }
+
+
+  /* =========================
+     HERO
+  ========================= */
+
+  .hero {
+    width: 100%;
+    min-height: auto;
+
+    padding: 75px 18px 65px;
+
+    overflow: hidden;
+  }
+
+  .small-title {
+    font-size: 13px;
+    letter-spacing: 3px;
+
+    white-space: nowrap;
+  }
+
+
+  /* TÊN VY TRÚC */
+
+  .hero-name {
+    width: auto;
+    max-width: 100%;
+
+    padding: 8px 18px;
+
+    font-size: 58px;
+
+    line-height: 1;
+
+    white-space: nowrap;
+  }
+
+
+  .hero-name::before {
+    left: -5%;
+    width: 110%;
+    height: 35px;
+  }
+
+  .hero-name::after {
+    left: -8%;
+    width: 116%;
+    height: 22px;
+  }
+
+
+  /* =========================
+     PHẦN MỜI
+  ========================= */
+
+  .graduation-text {
+    font-size: 18px;
+    line-height: 1.7;
+
+    margin-top: 28px;
+
+    white-space: normal;
+  }
+
+  .guest-name {
+    font-size: 32px;
+
+    line-height: 1.3;
+
+    margin-top: 8px;
+
+    max-width: 100%;
+
+    overflow-wrap: break-word;
+  }
+
+  .invitation-text {
+    width: 100%;
+    max-width: 340px;
+
+    margin: 18px auto 0;
+
+    font-size: 16px;
+
+    line-height: 2;
+
+    white-space: normal;
+
+    word-break: normal;
+  }
+
+
+  /* =========================
+     ẢNH
+  ========================= */
+
+  .photo-frame {
+    width: min(88vw, 380px);
+    max-width: 100%;
+
+    margin-top: 30px;
+  }
+
+
+  /* =========================
+     THỜI GIAN
+  ========================= */
+
+  .date-section {
+    width: 100%;
+
+    padding: 70px 18px;
+
+    overflow: hidden;
+  }
+
+  .date-section h2 {
+    font-size: 40px;
+
+    line-height: 1.3;
+
+    max-width: 330px;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .big-time {
+    font-size: 43px;
+
+    line-height: 1.3;
+
+    white-space: normal;
+  }
+
+  .date-line {
+    font-size: 22px;
+
+    line-height: 1.5;
+  }
+
+  .date-full {
+    font-size: 17px;
+
+    line-height: 1.7;
+
+    max-width: 300px;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  /* =========================
+     ĐỊA ĐIỂM
+  ========================= */
+
+  .location-section {
+    width: 100%;
+
+    padding: 70px 18px;
+
+    overflow: hidden;
+  }
+
+  .location-section h2 {
+    font-size: 40px;
+
+    line-height: 1.3;
+  }
+
+  .location-content {
+    width: 100%;
+    max-width: 340px;
+
+    margin: 30px auto;
+  }
+
+  .location-content h3 {
+    font-size: 23px;
+
+    line-height: 1.6;
+
+    overflow-wrap: break-word;
+  }
+
+  .location-content p {
+    font-size: 16px;
+
+    line-height: 1.8;
+  }
+
+
+  /* =========================
+     GOOGLE MAP
+  ========================= */
+
+  .map-card {
+    width: 100%;
+    max-width: 100%;
+
+    margin-top: 35px;
+
+    padding: 7px;
+
+    border-radius: 18px;
+  }
+
+  .map-card iframe {
+    width: 100%;
+
+    height: 280px;
+
+    border-radius: 14px;
+  }
+
+  .map-button {
+    font-size: 13px;
+
+    padding: 11px 20px;
+  }
+
+
+  /* =========================
+     COUNTDOWN
+  ========================= */
+
+  .countdown-section {
+    width: 100%;
+
+    padding: 70px 12px;
+
+    overflow: hidden;
+  }
+
+  .countdown-section h2 {
+    width: 100%;
+    max-width: 340px;
+
+    margin: 12px auto 45px;
+
+    font-size: 34px;
+
+    line-height: 1.4;
+
+    text-align: center;
+  }
+
+  .countdown {
+    width: 100%;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: flex-start;
+
+    gap: 8px;
+  }
+
+  .countdown div {
+    min-width: 0;
+    width: 23%;
+
+    flex: 1;
+  }
+
+  .countdown strong {
+    font-size: 43px;
+
+    line-height: 1;
+
+    white-space: nowrap;
+  }
+
+  .countdown span {
+    margin-top: 12px;
+
+    font-size: 14px;
+
+    line-height: 1.4;
+
+    white-space: nowrap;
+  }
+
+
+  /* =========================
+     KẾT
+  ========================= */
+
+  .closing {
+    width: 100%;
+
+    min-height: 60vh;
+
+    padding: 70px 20px;
+  }
+
+  .closing h2 {
+    font-size: 38px;
+
+    line-height: 1.4;
+  }
+
+  .closing > p {
+    width: 100%;
+    max-width: 340px;
+
+    font-size: 16px;
+
+    line-height: 1.9;
+  }
+
+
+  /* =========================
+     SASH
+  ========================= */
+
+  .graduation-sash {
+    left: 8px;
+
+    width: 45px;
+
+    min-height: 155px;
+
+    padding: 14px 5px 25px;
+  }
+
+  .graduation-sash span {
+    font-size: 17px;
+  }
+
+  .graduation-sash strong {
+    font-size: 8px;
+
+    line-height: 1.4;
+  }
+
+
+  /* =========================
+     NÚT NHẠC
+  ========================= */
+
+  .music-button {
+    right: 8px;
+    top: 8px;
+
+    padding: 7px 11px;
+
+    font-size: 10px;
+
+    max-width: 120px;
+
+    overflow: hidden;
+
+    white-space: nowrap;
+  }
+}
