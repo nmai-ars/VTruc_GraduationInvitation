@@ -1093,11 +1093,11 @@ body {
   }
 
 
-  /* =========================
+  /* /* =========================
      SASH
   ========================= */
 
-  .graduation-sash {
+  /* .graduation-sash {
     position: absolute;
 
     left: 5px;
@@ -1119,7 +1119,7 @@ body {
   .graduation-sash strong {
     font-size: 7px;
     line-height: 1.3;
-  }
+  } */ */
 
 
   /* =========================
