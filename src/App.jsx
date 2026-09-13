@@ -196,7 +196,8 @@ const guestName = guests[path] || "Bạn";
               <h3>
                 Hội trường Trường Công nghệ
                 <br />
-                Thông tin & Truyền thông Việt – Hàn
+                Thông tin & Truyền thông
+                <br /> Việt – Hàn
               </h3>
 
               <p>
@@ -252,9 +253,9 @@ const guestName = guests[path] || "Bạn";
             </h2>
 
             <p>
-              Sự hiện diện của bạn sẽ làm ngày tốt nghiệp
-              của Vy Trúc <br />
-               trở nên thật đáng nhớ. ♡
+              Sự hiện diện của bạn sẽ làm ngày tốt nghiệp 
+              <br />
+              của Vy Trúc trở nên thật đáng nhớ. ♡
             </p>
 
             <div className="signature">
