@@ -120,7 +120,9 @@ const guestName = guests[path] || "Bạn";
               ✦ HAPPY GRADUATION ✦
             </p>
 
-            <h1>Vy Trúc</h1>
+            <h1 className="hero-name">
+              <span>VY TRÚC</span>
+            </h1>
 
             <p className="graduation-text">
               Thân mời
@@ -199,7 +201,6 @@ const guestName = guests[path] || "Bạn";
 
               <p>
                 470 Trần Đại Nghĩa,
-                <br />
                 Ngũ Hành Sơn, Đà Nẵng
               </p>
 
@@ -252,7 +253,8 @@ const guestName = guests[path] || "Bạn";
 
             <p>
               Sự hiện diện của bạn sẽ làm ngày tốt nghiệp
-              của Vy Trúc trở nên thật đáng nhớ. ♡
+              của Vy Trúc <br />
+               trở nên thật đáng nhớ. ♡
             </p>
 
             <div className="signature">

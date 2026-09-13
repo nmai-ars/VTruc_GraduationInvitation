@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Quicksand:wght@400;500;600;700&family=Parisienne&display=swap");
 
 * {
@@ -72,7 +73,7 @@ body {
 }
 
 .welcome h1 {
-  font-family: "DM Serif Display", serif;
+  font-family: "Playfair Display", serif;
 
   color: #ce8ba0;
 
@@ -82,7 +83,7 @@ body {
 }
 
 .welcome h2 {
-  font-family: "DM Serif Display", serif;
+  font-family: "Playfair Display", serif;
 
   color: #8e6974;
 
@@ -269,7 +270,7 @@ body {
 }
 
 .hero h1 {
-  font-family: "DM Serif Display", serif;
+  font-family: "Playfair Display", serif;
 
   color: #c77f96;
 
@@ -289,7 +290,7 @@ body {
 
   color: #bf788f;
 
-  font-family: "DM Serif Display", serif;
+  font-family: "Playfair Display", serif;
 
   font-size: 28px;
 }
@@ -346,7 +347,7 @@ body {
 .date-section h2,
 .location-section h2,
 .countdown-section h2 {
-  font-family: "DM Serif Display", serif;
+  font-family: "Playfair Display", serif;
 
   color: #9a6e7b;
 
@@ -362,7 +363,7 @@ body {
 }
 
 .big-time {
-  font-family: "DM Serif Display", serif;
+  font-family: "Playfair Display", serif;
 
   color: #c77f96;
 
@@ -417,7 +418,7 @@ body {
 .location-content h3 {
   color: #916976;
 
-  font-family: "DM Serif Display", serif;
+  font-family: "Playfair Display", serif;
 
   font-size: 27px;
 
@@ -530,7 +531,7 @@ body {
 }
 
 .countdown strong {
-  font-family: "DM Serif Display", serif;
+  font-family: "Playfair Display", serif;
 
   color: #c77f96;
 
@@ -577,7 +578,7 @@ body {
 }
 
 .closing h2 {
-  font-family: "DM Serif Display", serif;
+  font-family: "Playfair Display", serif;
 
   color: #bd7c91;
 
@@ -605,7 +606,7 @@ body {
 }
 
 .signature strong {
-  font-family: "DM Serif Display", serif;
+  font-family: "Playfair Display", serif;
 
   color: #c77f96;
 
@@ -729,7 +730,7 @@ body {
   flex-direction: column;
   align-items: center;
 
-  font-family: "Quicksand", sans-serif;
+  font-family: "Playfair Display", serif;
 
   font-size: 11px;
   font-weight: 700;
@@ -794,4 +795,509 @@ body {
     font-size: 9px;
     -webkit-text-stroke: 0.8px #d889a2;
   }
+}
+
+/* =================================
+   CHỈNH FONT TO + THOÁNG + ĐẬM HƠN
+================================= */
+
+body {
+  font-size: 16px;
+}
+
+
+/* ===== TRANG MỞ THIỆP ===== */
+
+.welcome h1 {
+  font-size: clamp(75px, 14vw, 130px);
+  font-weight: 600;
+}
+
+.welcome h2 {
+  font-size: clamp(48px, 9vw, 85px);
+  font-weight: 500;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.welcome-text {
+  font-size: 17px;
+}
+
+
+/* ===== HERO ===== */
+
+.small-title {
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+
+.hero h1 {
+  font-size: clamp(68px, 12vw, 115px);
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.graduation-text {
+  font-size: 18px;
+}
+
+.guest-name {
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 16px;
+}
+
+.invitation-text {
+  font-size: 17px;
+  line-height: 2;
+  margin-top: 20px;
+}
+
+
+/* ===== TIÊU ĐỀ CÁC SECTION ===== */
+
+.section-label {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+
+.date-section h2,
+.location-section h2,
+.countdown-section h2 {
+  font-size: clamp(45px, 7vw, 60px);
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+
+/* ===== THỜI GIAN ===== */
+
+.big-time {
+  font-size: clamp(45px, 8vw, 72px);
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.date-line {
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.date-full {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+
+/* ===== ĐỊA ĐIỂM ===== */
+
+.location-content h3 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.location-content p {
+  font-size: 18px;
+  line-height: 1.9;
+}
+
+
+/* ===== COUNTDOWN ===== */
+
+.countdown-section h2 {
+  font-size: clamp(38px, 6vw, 55px);
+  font-weight: 600;
+  margin-bottom: 55px;
+  line-height: 1.4;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  gap: clamp(30px, 8vw, 90px);
+}
+
+.countdown div {
+  min-width: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.countdown strong {
+  font-family: "Playfair Display", serif;
+
+  font-size: clamp(55px, 9vw, 82px);
+
+  font-weight: 600;
+
+  line-height: 1;
+
+  display: block;
+}
+
+.countdown span {
+  display: block;
+
+  font-size: 17px;
+  font-weight: 600;
+
+  margin-top: 14px;
+
+  line-height: 1.4;
+}
+
+
+/* ===== PHẦN KẾT ===== */
+
+.closing h2 {
+  font-size: clamp(40px, 7vw, 60px);
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.closing > p {
+  font-size: 17px;
+  line-height: 2;
+}
+
+.signature {
+  font-size: 17px;
+}
+
+.signature strong {
+  font-size: 30px;
+}
+
+
+/* =================================
+   ICON ĐỘNG TRANG TRÍ
+================================= */
+
+.hero,
+.date-section,
+.location-section,
+.countdown-section {
+  position: relative;
+  overflow: hidden;
+}
+
+
+/* HERO */
+
+.hero::before {
+  content: "♡";
+
+  position: absolute;
+  top: 9%;
+  left: 7%;
+
+  color: #e3a0b5;
+
+  font-size: 45px;
+
+  animation: floatingHeart 3.5s ease-in-out infinite;
+}
+
+.hero::after {
+  content: "✦";
+
+  position: absolute;
+  top: 17%;
+  right: 9%;
+
+  color: #e3a0b5;
+
+  font-size: 34px;
+
+  animation: sparkle 2.5s ease-in-out infinite;
+}
+
+
+/* DATE */
+
+.date-section::before {
+  content: "✿";
+
+  position: absolute;
+  top: 12%;
+  left: 8%;
+
+  color: #e5a6b8;
+
+  font-size: 38px;
+
+  animation: floatingFlower 4s ease-in-out infinite;
+}
+
+.date-section::after {
+  content: "♡";
+
+  position: absolute;
+  bottom: 15%;
+  right: 8%;
+
+  color: #e5a6b8;
+
+  font-size: 40px;
+
+  animation: floatingHeart 3s ease-in-out infinite;
+}
+
+
+/* LOCATION */
+
+.location-section::before {
+  content: "✦";
+
+  position: absolute;
+  top: 12%;
+  right: 9%;
+
+  color: #e3a2b5;
+
+  font-size: 32px;
+
+  animation: sparkle 2.8s ease-in-out infinite;
+}
+
+.location-section::after {
+  content: "♡";
+
+  position: absolute;
+  bottom: 12%;
+  left: 8%;
+
+  color: #e5a6b8;
+
+  font-size: 40px;
+
+  animation: floatingHeart 3.5s ease-in-out infinite;
+}
+
+
+/* COUNTDOWN */
+
+.countdown-section::before {
+  content: "✿";
+
+  position: absolute;
+  top: 15%;
+  left: 9%;
+
+  color: #e4a5b7;
+
+  font-size: 35px;
+
+  animation: floatingFlower 4s ease-in-out infinite;
+}
+
+.countdown-section::after {
+  content: "✦";
+
+  position: absolute;
+  bottom: 15%;
+  right: 9%;
+
+  color: #e4a5b7;
+
+  font-size: 37px;
+
+  animation: sparkle 2.5s ease-in-out infinite;
+}
+
+
+/* =================================
+   ANIMATION ICON
+================================= */
+
+@keyframes floatingHeart {
+  0%, 100% {
+    transform: translateY(0) rotate(-10deg);
+  }
+
+  50% {
+    transform: translateY(-14px) rotate(8deg);
+  }
+}
+
+@keyframes floatingFlower {
+  0%, 100% {
+    transform: translateY(0) rotate(-12deg);
+  }
+
+  50% {
+    transform: translateY(-12px) rotate(10deg);
+  }
+}
+
+@keyframes sparkle {
+  0%, 100% {
+    opacity: 0.35;
+    transform: scale(0.8) rotate(0deg);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.2) rotate(20deg);
+  }
+}
+
+
+/* ===== MOBILE ===== */
+
+@media (max-width: 600px) {
+
+  .hero h1 {
+    font-size: 65px;
+  }
+
+  .guest-name {
+    font-size: 28px;
+  }
+
+  .invitation-text {
+    font-size: 16px;
+  }
+
+  .date-line {
+    font-size: 22px;
+  }
+
+  .date-full {
+    font-size: 17px;
+  }
+
+  .location-content h3 {
+    font-size: 25px;
+  }
+
+  .countdown {
+    gap: 14px;
+  }
+
+  .countdown div {
+    min-width: 55px;
+  }
+
+  .countdown strong {
+    font-size: 48px;
+  }
+
+  .countdown span {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .hero::before {
+    left: 4%;
+    font-size: 32px;
+  }
+
+  .hero::after {
+    right: 5%;
+    font-size: 27px;
+  }
+}
+
+/* =================================
+   TÊN VY TRÚC - BRUSHSTROKE
+================================= */
+
+.hero-name {
+  position: relative;
+
+  display: inline-block;
+
+  margin: 15px 0 5px;
+
+  padding: 15px 35px;
+
+  font-family: "Playfair Display", serif;
+
+  font-size: clamp(58px, 11vw, 105px);
+
+  font-weight: 700;
+
+  line-height: 1;
+
+  color: #c47791;
+
+  z-index: 1;
+}
+
+
+/* MẢNG MÀU PHÍA SAU */
+
+.hero-name::before {
+  content: "";
+
+  position: absolute;
+
+  z-index: -1;
+
+  left: -15px;
+  right: -15px;
+
+  top: 18%;
+
+  height: 65%;
+
+  background: #f5d5df;
+
+  border-radius: 45% 55% 48% 52%;
+
+  transform: rotate(-2deg);
+
+  opacity: 0.85;
+
+  filter: blur(0.5px);
+}
+
+
+/* TẠO CẢM GIÁC BRUSHSTROKE THỨ 2 */
+
+.hero-name::after {
+  content: "";
+
+  position: absolute;
+
+  z-index: -2;
+
+  left: -30px;
+  right: -5px;
+
+  top: 25%;
+
+  height: 55%;
+
+  background: #f9e1e8;
+
+  border-radius: 55% 45% 50% 48%;
+
+  transform: rotate(2deg);
+
+  opacity: 0.8;
+}
+
+
+/* CHỮ */
+
+.hero-name span {
+  position: relative;
+
+  letter-spacing: 2px;
+
+  text-shadow:
+    0 1px 0 rgba(255,255,255,0.5);
 }
